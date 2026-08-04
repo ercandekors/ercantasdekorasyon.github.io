@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ercan Taş Yapı & Dekorasyon</title>
+  <style>
+    :root{
+      --lacivert:#0b1f3a;
+      --mavi:#1473ff;
+      --turuncu:#ff7a00;
+      --acik:#f5f7fb;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      background:var(--acik);
+      color:#1f2937;
+      line-height:1.6;
+    }
+    header{
+      background:linear-gradient(135deg,var(--lacivert),var(--mavi));
+      color:#fff;
+      text-align:center;
+      padding:70px 20px;
+    }
+    header h1{
+      margin:0;
+      font-size:48px;
+    }
+    .slogan{
+      margin-top:12px;
+      font-size:22px;
+      color:#ffd7b0;
+      font-weight:bold;
+    }
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:40px 20px;
+    }
+    .card{
+      background:#fff;
+      border-radius:20px;
+      padding:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,.08);
+      margin-bottom:25px;
+    }
+    h2{
+      color:var(--lacivert);
+      margin-top:0;
+    }
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:15px;
+    }
+    .service{
+      border:2px solid #e5e7eb;
+      border-radius:16px;
+      padding:18px;
+      text-align:center;
+      font-weight:bold;
+      transition:.2s;
+    }
+    .service:hover{
+      border-color:var(--mavi);
+      transform:translateY(-3px);
+    }
+    .contact{
+      text-align:center;
+      background:var(--lacivert);
+      color:#fff;
+      border-radius:20px;
+      padding:35px 20px;
+    }
+    .phone{
+      font-size:32px;
+      font-weight:bold;
+      color:#fff;
+      text-decoration:none;
+      display:inline-block;
+      margin:12px 0;
+    }
+    .btn{
+      display:inline-block;
+      background:var(--turuncu);
+      color:#fff;
+      padding:14px 24px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:bold;
+      margin-top:10px;
+    }
+    footer{
+      text-align:center;
+      padding:20px;
+      color:#6b7280;
+      font-size:14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ercan Taş</h1>
+  <div class="slogan">Evinize değer katan profesyonel dokunuş!</div>
+</header>
+
+<div class="container">
+
+  <div class="card">
+    <h2>Hakkımızda</h2>
+    <p>
+      <strong>Ercan Taş Yapı & Dekorasyon</strong> olarak boya, dekorasyon, parke,
+      tadilat ve evinizle ilgili tüm inşaat işlerinde kaliteli işçilik ve güvenilir hizmet sunuyoruz.
+      Evinizi yenilemek, güzelleştirmek ve değer katmak için profesyonel çözümlerimizle yanınızdayız.
+      Ücretsiz keşif ve detaylı bilgi için hemen iletişime geçebilirsiniz.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Hizmetlerimiz</h2>
+    <div class="services">
+      <div class="service">İç Cephe Boya</div>
+      <div class="service">Dış Cephe Boya</div>
+      <div class="service">Alçı & Sıva</div>
+      <div class="service">Dekorasyon</div>
+      <div class="service">Laminat Parke</div>
+      <div class="service">Tadilat</div>
+      <div class="service">Fayans & Seramik</div>
+      <div class="service">Anahtar Teslim İşler</div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2 style="color:white">İletişim</h2>
+    <p>Ücretsiz keşif ve fiyat teklifi için hemen arayın.</p>
+    <a class="phone" href="tel:+905300231865">0530 023 18 65</a><br>
+    <a class="btn" href="tel:+905300231865">Hemen Ara</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Ercan Taş Yapı & Dekorasyon - Tüm hakları saklıdır.
+</footer>
+
+</body>
+</html>
